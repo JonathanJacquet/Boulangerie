@@ -96,22 +96,123 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+aside {
+    background-color: cornflowerblue;
+}
+
+   nav {
+    background-color: gray;
+}
+
+header {
+    background-color:red;
+}
+
+/*        MAIN             */
+
+main {
+    background-color: gold;
+}
+
+.contener_call {
+    display: none;
+}
+
+.image_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_text p {
+    width: 90%;
+    background-color:orange;
+}
+.article2, .article3 {
+    display:none;
+}
+
+h4 {
+    text-align: center;
+}
+
+.contener_icone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contener_icone div {
+    width: 20%;
+}
+
+/*    HEADER   */
+input {
+    display: none;
+}
+
+.fas fa-search {
+    display: none;
+}
+
+.contener_aside {
+    display: flex;
+    justify-content: space-between;
+}
+.aside_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: none;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lily Script One', cursive;
+    text-align: center;
+    font-size: 1em;
+}
+/*        FOOTER      */
 
 
 
+.contener_rs {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+h5 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    display:none;
+}
+
+footer {
+    background-color: grey;
+}
+
+/*             TAB        */
+@media screen and (min-width: 600px) {
 
 
 
+/*      PC       */
 
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 1200px) {
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+    }
 
 /* ==========================================================================
    Helper classes
