@@ -1,6 +1,6 @@
 # Boulangerie/ Pâtisserie
 
-Réaliser une home page responsive d'une Boulangerie/Pâtisserie
+Réaliser une home page responsive d'une Boulangerie/Pâtisserie en respectant les wireframes données en annexes.
 
 ## Languages utilisés
 ![HTML5](https://img.shields.io/badge/-HTML5-orange.svg)
